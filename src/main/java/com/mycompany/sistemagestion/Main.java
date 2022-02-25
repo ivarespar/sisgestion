@@ -11,7 +11,9 @@ package com.mycompany.sistemagestion;
 public class Main {
     
     public static void main(String[] args){
-        Formulario ventana = new Formulario();  // Instanciar formulario en MAIN
+        // Formulario ventana = new Formulario();  // Instanciar formulario en MAIN
+        
+        Primos ventana = new Primos();          // Instanciar formulario en MAIN
         ventana.show();                         // MostrarFormulario
     }
     
